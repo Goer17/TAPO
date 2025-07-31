@@ -1,0 +1,2 @@
+FROM 10.200.99.202:15080/002150/verl:v1.1
+RUN pip install --no-cache-dir -U redis
