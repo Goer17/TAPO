@@ -1,0 +1,52 @@
+[
+    {
+        "script": "hello.py",
+        "stdout": "Hello, world.\n",
+        "finished": true
+    },
+    {
+        "script": "print_triangle.py",
+        "stdout": "*\n**\n***\n****\n",
+        "finished": true
+    },
+    {
+        "script": "inf_loop.py",
+        "stdout": "[TIMEOUT]",
+        "finished": false
+    },
+    {
+        "script": "basic_math.py",
+        "stdout": "314.16\n",
+        "finished": true
+    },
+    {
+        "script": "matrix_mul.py",
+        "stdout": "[156 174 132  84]\n",
+        "finished": true
+    },
+    {
+        "script": "calculus.py",
+        "stdout": "0.333\n",
+        "finished": true
+    },
+    {
+        "script": "fibonacci.py",
+        "stdout": "6765\n",
+        "finished": true
+    },
+    {
+        "script": "danger_import.py",
+        "stdout": "ImportError",
+        "finished": true
+    },
+    {
+        "script": "open_file.py",
+        "stdout": "name 'open' is not defined",
+        "finished": true
+    },
+    {
+        "script": "inf_recur.py",
+        "stdout": "maximum recursion depth exceeded",
+        "finished": true
+    }
+]

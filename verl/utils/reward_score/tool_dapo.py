@@ -118,7 +118,7 @@ def _get_score(pred: str,
 
 def check_format(solution_str: str,
                  enable_tools: List[str] = ["search", "code"]) -> Dict[str, Any]:
-    """(yuanyang) Verify if the solution is formatly correct
+    """Verify if the solution is formatly correct
     
     Args:
         solution_str: The solution string

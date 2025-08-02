@@ -65,7 +65,6 @@ class TAPORewardManager:
 
             ground_truth = data_item.non_tensor_batch['reward_model']['ground_truth']
 
-            # TODO (wenxun): Remember to add data_source when generating training dataset in both trainig and validation.
             data_source = data_item.non_tensor_batch[self.reward_fn_key]
 
             extra_info = data_item.non_tensor_batch.get('extra_info', None)

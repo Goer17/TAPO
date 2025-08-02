@@ -123,8 +123,7 @@ class vLLMRollout(BaseRollout):
             max_num_batched_tokens=max_num_batched_tokens,
             enable_chunked_prefill=config.enable_chunked_prefill,
             enable_prefix_caching=True,
-            trust_remote_code=trust_remote_code,
-            seed=42 # NOTE (modified by yuanyang, Seed must be set when using external launcher backend to make sure sampling results are the same across workers.)
+            trust_remote_code=trust_remote_code
         )
 
         # Offload vllm model to reduce peak memory usage

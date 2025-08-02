@@ -161,7 +161,6 @@ from verl.utils.torch_functional import masked_mean
 def apply_kl_penalty(data: DataProto, kl_ctrl: core_algos.AdaptiveKLController, kl_penalty="kl"):
     responses = data.batch["responses"]
     response_length = responses.size(1)
-    # TODO (wenxun): check if this has to be adjusted for tool-calling
     token_level_scores = data.batch["token_level_scores"]
     batch_size = data.batch.batch_size[0]
     attention_mask = data.batch["attention_mask"]
