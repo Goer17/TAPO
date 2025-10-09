@@ -1,5 +1,8 @@
 # Tool-Augmented Policy Optimization (TAPO)
 
+Paper: [https://arxiv.org/abs/2510.07038](https://arxiv.org/abs/2510.07038)
+Dataset: [https://huggingface.co/datasets/Goer17/TAPO](https://huggingface.co/datasets/Goer17/TAPO)
+
 This project is forked from [VeRL](https://github.com/volcengine/verl).
 
 TAPO (Tool-Augmented Policy Optimization) is an innovative RL framework evolved from DAPO, designed to seamlessly integrate reasoning capabilities with tool utilization in language models.
